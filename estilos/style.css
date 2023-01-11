@@ -35,3 +35,12 @@ section#smartphone{
    
 
 }
+
+iframe#screen{
+    position: relative;
+    border-radius: 3px;
+    top: 79px;
+    left: 21px;
+    width: 269px;
+    height: 474px;
+}
