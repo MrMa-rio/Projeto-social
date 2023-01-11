@@ -20,8 +20,8 @@ body{
 }
 
 main{
-    position: relative;
     height: 100vh;
+    width: 100vw;
 }
 section#smartphone{
     background-image: url('/imagens/frame-iphone.png');
@@ -44,14 +44,17 @@ iframe#screen{
     width: 269px;
     height: 474px;
 }
-section#minhasredes{
-    position: relative;
+section#minhasredes {
+    
+    
+    position: fixed;
     top: 25%;
-    text-align: right;
+    
 }
 a{
     text-decoration: none;
-    display: inline-block
+    display: inline;
+    
 }
 section#minhasredes img{
     box-sizing: border-box;
