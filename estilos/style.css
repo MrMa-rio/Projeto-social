@@ -44,3 +44,31 @@ iframe#screen{
     width: 269px;
     height: 474px;
 }
+section#minhasredes{
+    position: relative;
+    top: 25%;
+    text-align: right;
+}
+a{
+    text-decoration: none;
+    display: inline-block
+}
+section#minhasredes img{
+    box-sizing: border-box;
+    width: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.511);
+
+}
+section#minhasredes img:hover{
+    
+    border: 2.5px solid rgba(255, 255, 255, 0.742);
+    position: relative;
+    left: -7px;
+    
+    transition: border 0.4s;
+    
+    
+
+}
